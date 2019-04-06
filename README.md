@@ -20,25 +20,51 @@ The library ...
 
 ## Libraries
 
-### [filename](link_to_file)
+### [csv_general_helpers.py](https://github.com/ChristopherHaydenTodd/ctodd-python-lib-csv/blob/pypi/csv_helpers/csv_general_helpers.py)
 
-DOCSTRING_OF_FILE
+CSV General Helpers. This library is used to interact with .csv files not specificlly related to reading or writing them.
 
 Functions:
 
 ```
-function def and DOCSTRING
+def convert_csv_file_to_json_file(csv_filename, json_filename=None, seperator=","):
+    """
+    Purpose:
+        Convert .csv File to .json
+    Args:
+        csv_filename (String): .csv file to convert to .json
+        json_filename (String): filename for the resulting .json
+        seperator (String): String seperator of fields in the .csv
+    Return:
+        json_filename (String): filename for the resulting .json
+    """
+```
+
+### [csv_reading_helpers.py](https://github.com/ChristopherHaydenTodd/ctodd-python-lib-csv/blob/pypi/csv_helpers/csv_reading_helpers.py)
+
+CSV Reading Helpers. This library is used to aid in reading with .csv files
+
+Functions:
+
+```
+N/A
+```
+
+### [csv_writing_helpers.py](https://github.com/ChristopherHaydenTodd/ctodd-python-lib-csv/blob/pypi/csv_helpers/csv_writing_helpers.py)
+
+CSV Writing Helpers. This library is used to aid in writing with .csv files
+
+Functions:
+
+```
+N/A
 ```
 
 ## Example Scripts
 
 Example executable Python scripts/modules for testing and interacting with the library. These show example use-cases for the libraries and can be used as templates for developing with the libraries or to use as one-off development efforts.
 
-### [filename](link_to_file)
-
-```
-DOCSTRING
-```
+### N/A
 
 ## Notes
 
