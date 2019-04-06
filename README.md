@@ -14,7 +14,7 @@ The ctodd-python-lib-csv project is responsible for interacting with .csv files 
 
 ### Python Packages
 
--
+- simplejson>=3.16.0
 
 ## Libraries
 
