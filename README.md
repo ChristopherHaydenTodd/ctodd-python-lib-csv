@@ -1,8 +1,6 @@
-# Christopher H. Todd's PROJECT_STRING_NAME
+# Christopher H. Todd's Python Lib for CSV Files
 
-The PROJECT_GIT_NAME project is responsible for ...
-
-The library ...
+The ctodd-python-lib-csv project is responsible for interacting with .csv files and .csv formatted data. This includes converting to and from .csv format, reading .csv files, writing .csv files, and other general CSV related tasks.
 
 ## Table of Contents
 
